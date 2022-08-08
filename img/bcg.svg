@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1,
+      .cls-2,
+      .cls-3,
+      .cls-4 {
+        fill: none;
+      }
+
+      .cls-2,
+      .cls-3,
+      .cls-4 {
+        stroke: #f2592a;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        stroke-width: 0.5px;
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-6 {
+        fill: url(#Unnamed_Pattern);
+      }
+    </style>
+    <linearGradient id="linear-gradient" y1="250" x2="500" y2="250" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f69430" />
+      <stop offset="0.34" stop-color="#f14e29" />
+      <stop offset="0.61" stop-color="#f3632b" />
+      <stop offset="0.79" stop-color="#f5832f" />
+      <stop offset="1" stop-color="#f58220" />
+    </linearGradient>
+    <pattern id="Unnamed_Pattern" data-name="Unnamed Pattern" width="100.5" height="100.5"
+      patternTransform="translate(-15832.33 -569.5) rotate(90)" patternUnits="userSpaceOnUse" viewBox="0 0 100.5 100.5">
+      <rect class="cls-1" width="100.5" height="100.5" />
+      <line class="cls-2" x1="5.17" x2="5.17" y2="100.5" />
+      <line class="cls-2" x1="15.18" x2="15.18" y2="100.5" />
+      <line class="cls-3" x1="25.19" x2="25.19" y2="100.5" />
+      <line class="cls-4" x1="35.2" x2="35.2" y2="100.5" />
+      <line class="cls-2" x1="45.21" x2="45.21" y2="100.5" />
+      <line class="cls-2" x1="55.22" x2="55.22" y2="100.5" />
+      <line class="cls-2" x1="65.22" x2="65.22" y2="100.5" />
+      <line class="cls-3" x1="75.23" x2="75.23" y2="100.5" />
+      <line class="cls-2" x1="85.24" x2="85.24" y2="100.5" />
+      <line class="cls-2" x1="95.25" x2="95.25" y2="100.5" />
+    </pattern>
+  </defs>
+  <g id="Слой_2" data-name="Слой 2">
+    <g id="BACKGROUND">
+      <rect class="cls-5" width="500" height="500" />
+      <polygon class="cls-6" points="0 500 0 0 500 0 500 500 0 500" />
+    </g>
+  </g>
+</svg>
