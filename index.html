@@ -7,52 +7,54 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
 
-    <script src="./scripts/remember-me.js" defer></script>
-    <script src="./scripts/show-and-hide-password.js" defer></script>
+    <script src="scripts/remember-me.js" defer></script>
+    <script src="scripts/show-and-hide-password.js" defer></script>
   </head>
   <body>
-    <form>
-      <div class="wrapper-right">
-        <a>
-          <img src="./img/close.svg" alt="x" />
-        </a>
-      </div>
-
-      <div class="sign-in-section">
-        <h1>Member Sign In</h1>
-        <p>Not a member yet? <a href="#">Sign up now</a></p>
-
-        <div class="username">
-          <img class="icon" src="./img/member.svg" alt="member icon" />
-          <input id="username" type="text" placeholder="Username / Email" />
+    <div class="wrapper">
+      <form action="#">
+        <div class="wrapper-right">
+          <a href="#">
+            <img src="img/close.svg" alt="x" />
+          </a>
         </div>
 
-        <div class="password">
-          <img class="icon" src="./img/lock.svg" alt="password icon" />
+        <div class="sign-in-section">
+          <h1>Member Sign In</h1>
+          <p>Not a member yet? <a href="#">Sign up now</a></p>
 
-          <input id="password" type="password" placeholder="Password" />
+          <div class="username">
+            <img class="icon" src="img/member.svg" alt="member icon" />
+            <input id="username" type="text" placeholder="Username / Email" />
+          </div>
 
-          <div id="show-or-hide">
-            <img id="hide" src="./img/hide.svg" alt="" />
-            <img id="show" src="./img/show.svg" alt="" />
+          <div class="password">
+            <img class="icon" src="img/lock.svg" alt="password icon" />
+
+            <input id="password" type="password" placeholder="Password" />
+
+            <div id="show-or-hide">
+              <img id="hide" src="img/hide.svg" alt="" />
+              <img id="show" src="img/show.svg" alt="" />
+            </div>
+          </div>
+
+          <div class="submit-section">
+            <button id="submit-btn" type="submit" disabled>Sign In</button>
+
+            <div>
+              <label for="need-remember">
+                <input type="checkbox" id="need-remember" />
+                <span>Remember me</span>
+              </label>
+
+              <a href="#">Forgot Password?</a>
+            </div>
           </div>
         </div>
+      </form>
 
-        <div class="submit-section">
-          <button id="submit-btn" type="submit" disabled>Sign In</button>
-
-          <div>
-            <label for="need-remember">
-              <input type="checkbox" id="need-remember" />
-              <span>Remember me</span>
-            </label>
-
-            <a href="#">Forgot Password?</a>
-          </div>
-        </div>
-      </div>
-    </form>
-
-    <img class="some-text" src="./img/text.svg" alt="some text" />
+      <img class="some-text" src="img/text.svg" alt="some text" />
+    </div>
   </body>
 </html>
