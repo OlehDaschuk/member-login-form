@@ -12,20 +12,22 @@
 }
 
 body {
-  height: 100vh;
-
-  background-image: url("./img/bcg.svg");
+  background-image: url("img/bcg.svg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+form {
+  background-color: #ddd;
+}
+
+.wrapper {
+  height: 100vh;
 
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-
-form {
-  background-color: #ddd;
 }
 
 .wrapper-right {
@@ -87,9 +89,14 @@ p a {
 }
 
 .icon {
-  background-color: orange;
+  background-color: #ff7f0c;
   width: 2.5rem;
   height: 100%;
+  padding: 0.5rem;
+}
+
+#show-or-hide img {
+  width: 37px;
 }
 
 #show {
@@ -103,7 +110,7 @@ p a {
 .submit-section button {
   font-size: 1.5rem;
   padding: 0.5rem 2rem;
-  background-color: orange;
+  background-color: #ff7f0c;
   color: white;
 }
 .submit-section div {
