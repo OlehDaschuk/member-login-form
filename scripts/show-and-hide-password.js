@@ -6,7 +6,6 @@ const show = document.getElementById("show");
 let isShown = false;
 
 btn.addEventListener("click", () => {
-  console.log(1);
   if (isShown) {
     hide.style.display = "none";
     show.style.display = "block";
